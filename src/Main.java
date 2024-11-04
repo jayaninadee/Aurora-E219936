@@ -20,8 +20,8 @@ public class Main {
             System.out.println("2. Update Appointment");
             System.out.println("3. View Appointments");
             System.out.println("4. Search Appointments");
-            System.out.println("5. Accept Registration Fee");
-            System.out.println("6. Calculate and Generate Invoice");
+            System.out.println("5. Placing appointments");
+            System.out.println("6. Invoicing");
             System.out.println("7. Exit");
 
             System.out.print("Enter your choice: ");
@@ -30,14 +30,23 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    // Code to make an appointment
                     System.out.println("Making an appointment...");
                     break;
                 case 2:
-                    // Code to update an appointment
                     System.out.println("Updating an appointment...");
                     break;
-                // ... other cases ...
+                case 3:
+                    System.out.println("Viewing an Appointment...");
+                    break;
+                case 4:
+                    System.out.println("Searching Appointments...");
+                    break;
+                case 5:
+                    System.out.println("Placing appointments...");
+                    break;
+                case 6:
+                    System.out.println("Invoicing...");
+                    break;
                 case 7:
                     System.out.println("Exiting...");
                     break;
