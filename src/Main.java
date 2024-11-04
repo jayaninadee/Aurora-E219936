@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
 //    DB Connection
     private static final String DB_URL = "jdbc:mysql://localhost:3306/auroraskincare";
-    private static final String USER = "jayan";
-    private static final String PASS = " ";
+    private static final String USER = "jayani";
+    private static final String PASS = "1234";
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
