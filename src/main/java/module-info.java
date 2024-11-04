@@ -1,4 +1,4 @@
-module com.auroraskincare.auroraskincaree219936 {
+module com.auroraskincare {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -11,6 +11,9 @@ module com.auroraskincare.auroraskincaree219936 {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.auroraskincare.auroraskincaree219936 to javafx.fxml;
-    exports com.auroraskincare.auroraskincaree219936;
+    opens com.auroraskincare.view to javafx.fxml;
+    exports com.auroraskincare.main;
+    opens com.auroraskincare.main to javafx.fxml;
+    exports com.auroraskincare.controller;
+    opens com.auroraskincare.controller to javafx.fxml;
 }

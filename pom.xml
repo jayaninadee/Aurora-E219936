@@ -124,7 +124,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.auroraskincare.auroraskincaree219936/com.auroraskincare.auroraskincaree219936.HelloApplication</mainClass>
+              <mainClass>com.auroraskincare.auroraskincaree219936/com.auroraskincare.main.Main</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
