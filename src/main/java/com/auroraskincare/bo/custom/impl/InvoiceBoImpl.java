@@ -1,4 +1,11 @@
-package com.auroraskincare.bo.custom;
+/*
+ * Copyright (c) 2024
+ * **********************************************
+ * Jayani Nadeesha
+ * **********************************************
+ */
 
-public class InvoiceBo {
+package com.auroraskincare.bo.custom.impl;
+
+public class InvoiceBoImpl {
 }
