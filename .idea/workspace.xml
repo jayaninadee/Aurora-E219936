@@ -137,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730736107689</updated>
-      <workItem from="1730736108780" duration="14906000" />
+      <workItem from="1730736108780" duration="15535000" />
     </task>
     <task id="LOCAL-00001" summary="FXML Error fixed">
       <option name="closed" value="true" />
@@ -211,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730800212283</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cashier entity">
+      <option name="closed" value="true" />
+      <created>1730800388326</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730800388326</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Doctor entity">
+      <option name="closed" value="true" />
+      <created>1730800809911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730800809911</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +240,9 @@
     <MESSAGE value="DB Connetion" />
     <MESSAGE value="BOFactory" />
     <MESSAGE value="Appointment entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Appointment entity" />
+    <MESSAGE value="Cashier entity" />
+    <MESSAGE value="Doctor entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctor entity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
