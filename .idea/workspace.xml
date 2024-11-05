@@ -137,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730736107689</updated>
-      <workItem from="1730736108780" duration="15897000" />
+      <workItem from="1730736108780" duration="18798000" />
     </task>
     <task id="LOCAL-00001" summary="FXML Error fixed">
       <option name="closed" value="true" />
@@ -235,11 +235,30 @@
       <option name="project" value="LOCAL" />
       <updated>1730801007039</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Patient entity">
+      <option name="closed" value="true" />
+      <created>1730801386514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730801386514</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FXML Error fixed" />
@@ -251,7 +270,8 @@
     <MESSAGE value="Cashier entity" />
     <MESSAGE value="Doctor entity" />
     <MESSAGE value="Invoice entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invoice entity" />
+    <MESSAGE value="Patient entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patient entity" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

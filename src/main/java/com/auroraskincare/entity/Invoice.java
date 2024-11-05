@@ -8,71 +8,71 @@
 package com.auroraskincare.entity;
 
 public class Invoice {
-    private int patientID;
-    private String pName;
-    private String pNIC;
-    private String pEmail;
-    private int pConNumber;
+    private int invoiceID;
+    private double amountPaid;
+    private String paymentDate;
+    private String paymentType;
+    private String paymentCateg;
 
     public Invoice() {
     }
 
-    public Invoice(int patientID, String pName, String pNIC, String pEmail, int pConNumber) {
-        this.patientID = patientID;
-        this.pName = pName;
-        this.pNIC = pNIC;
-        this.pEmail = pEmail;
-        this.pConNumber = pConNumber;
+    public Invoice(int invoiceID, double amountPaid, String paymentDate, String paymentType, String paymentCateg) {
+        this.invoiceID = invoiceID;
+        this.amountPaid = amountPaid;
+        this.paymentDate = paymentDate;
+        this.paymentType = paymentType;
+        this.paymentCateg = paymentCateg;
     }
 
-    public int getPatientID() {
-        return patientID;
+    public int getInvoiceID() {
+        return invoiceID;
     }
 
-    public void setPatientID(int patientID) {
-        this.patientID = patientID;
+    public void setInvoiceID(int invoiceID) {
+        this.invoiceID = invoiceID;
     }
 
-    public String getpName() {
-        return pName;
+    public double getAmountPaid() {
+        return amountPaid;
     }
 
-    public void setpName(String pName) {
-        this.pName = pName;
+    public void setAmountPaid(double amountPaid) {
+        this.amountPaid = amountPaid;
     }
 
-    public String getpNIC() {
-        return pNIC;
+    public String getPaymentDate() {
+        return paymentDate;
     }
 
-    public void setpNIC(String pNIC) {
-        this.pNIC = pNIC;
+    public void setPaymentDate(String paymentDate) {
+        this.paymentDate = paymentDate;
     }
 
-    public String getpEmail() {
-        return pEmail;
+    public String getPaymentType() {
+        return paymentType;
     }
 
-    public void setpEmail(String pEmail) {
-        this.pEmail = pEmail;
+    public void setPaymentType(String paymentType) {
+        this.paymentType = paymentType;
     }
 
-    public int getpConNumber() {
-        return pConNumber;
+    public String getPaymentCateg() {
+        return paymentCateg;
     }
 
-    public void setpConNumber(int pConNumber) {
-        this.pConNumber = pConNumber;
+    public void setPaymentCateg(String paymentCateg) {
+        this.paymentCateg = paymentCateg;
     }
 
     @Override
     public String toString() {
         return "Invoice{" +
-                "patientID=" + patientID +
-                ", pName='" + pName + '\'' +
-                ", pNIC='" + pNIC + '\'' +
-                ", pEmail='" + pEmail + '\'' +
-                ", pConNumber=" + pConNumber +
+                "invoiceID=" + invoiceID +
+                ", amountPaid=" + amountPaid +
+                ", paymentDate='" + paymentDate + '\'' +
+                ", paymentType='" + paymentType + '\'' +
+                ", paymentCateg='" + paymentCateg + '\'' +
                 '}';
     }
 }

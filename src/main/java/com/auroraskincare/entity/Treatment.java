@@ -8,4 +8,8 @@
 package com.auroraskincare.entity;
 
 public class Treatment {
+    private int trID;
+    private String trName;
+    private String trName;
+    private String trName;
 }

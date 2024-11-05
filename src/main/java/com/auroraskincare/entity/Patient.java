@@ -12,12 +12,12 @@ public class Patient {
     private String pName;
     private String pNIC;
     private String pEmail;
-    private String pConNumber;
+    private int pConNumber;
 
     public Patient() {
     }
 
-    public Patient(int patientID, String pName, String pNIC, String pEmail, String pConNumber) {
+    public Patient(int patientID, String pName, String pNIC, String pEmail, int pConNumber) {
         this.patientID = patientID;
         this.pName = pName;
         this.pNIC = pNIC;
@@ -57,11 +57,11 @@ public class Patient {
         this.pEmail = pEmail;
     }
 
-    public String getpConNumber() {
+    public int getpConNumber() {
         return pConNumber;
     }
 
-    public void setpConNumber(String pConNumber) {
+    public void setpConNumber(int pConNumber) {
         this.pConNumber = pConNumber;
     }
 
@@ -72,7 +72,7 @@ public class Patient {
                 ", pName='" + pName + '\'' +
                 ", pNIC='" + pNIC + '\'' +
                 ", pEmail='" + pEmail + '\'' +
-                ", pConNumber='" + pConNumber + '\'' +
+                ", pConNumber=" + pConNumber +
                 '}';
     }
 }
