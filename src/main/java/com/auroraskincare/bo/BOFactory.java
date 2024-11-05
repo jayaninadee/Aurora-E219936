@@ -7,6 +7,8 @@
 
 package com.auroraskincare.bo;
 
+import com.auroraskincare.bo.custom.impl.*;
+
 public class BOFactory {
     public enum BOTypes{
         CASHIER, DOCTOR, PATIENT, APPOINTMENT, TREATMENT, INVOICE;

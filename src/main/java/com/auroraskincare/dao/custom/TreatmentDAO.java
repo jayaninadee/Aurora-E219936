@@ -7,5 +7,8 @@
 
 package com.auroraskincare.dao.custom;
 
-public interface TreatmentDAO {
+import com.auroraskincare.dao.CrudDAO;
+import com.auroraskincare.entity.Treatment;
+
+public interface TreatmentDAO extends CrudDAO<Treatment, String > {
 }

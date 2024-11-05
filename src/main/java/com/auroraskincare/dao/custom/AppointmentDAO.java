@@ -7,5 +7,8 @@
 
 package com.auroraskincare.dao.custom;
 
-public interface AppointmentDAO {
+import com.auroraskincare.dao.CrudDAO;
+import com.auroraskincare.entity.Appointment;
+
+public interface AppointmentDAO extends CrudDAO <Appointment, String> {
 }

@@ -7,5 +7,8 @@
 
 package com.auroraskincare.dao.custom;
 
-public interface InvoiceDAO {
+import com.auroraskincare.dao.CrudDAO;
+import com.auroraskincare.entity.Invoice;
+
+public interface InvoiceDAO extends CrudDAO<Invoice,String> {
 }

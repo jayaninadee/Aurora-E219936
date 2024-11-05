@@ -7,5 +7,8 @@
 
 package com.auroraskincare.dao.custom;
 
-public interface CashierDAO {
+import com.auroraskincare.dao.CrudDAO;
+import com.auroraskincare.entity.Cashier;
+
+public interface CashierDAO extends CrudDAO<Cashier, String> {
 }

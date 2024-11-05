@@ -96,6 +96,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.auroraskincare.dao.custom" />
+      <recent name="com.auroraskincare.dao.custom.impl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\InteliJ\AuroraSkinCare-E219936\src\main\java\com\auroraskincare\view" />
       <recent name="C:\Dev\InteliJ\AuroraSkinCare-E219936\src\main\resources\com\auroraskincare" />
@@ -137,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730736107689</updated>
-      <workItem from="1730736108780" duration="22339000" />
+      <workItem from="1730736108780" duration="25921000" />
     </task>
     <task id="LOCAL-00001" summary="FXML Error fixed">
       <option name="closed" value="true" />
@@ -267,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730812770391</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="DAO initialized">
+      <option name="closed" value="true" />
+      <created>1730813203847</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730813203847</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +309,8 @@
     <MESSAGE value="Invoice entity" />
     <MESSAGE value="Treatment entity" />
     <MESSAGE value="DTO initialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="DTO initialized" />
+    <MESSAGE value="DAO initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAO initialized" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
