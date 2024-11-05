@@ -10,6 +10,7 @@ module com.auroraskincare {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.auroraskincare.view to javafx.fxml;
     exports com.auroraskincare.main;
