@@ -8,7 +8,7 @@
 package com.auroraskincare.entity;
 
 public class Invoice {
-    private int invoiceID;
+    private String invoiceID;
     private double amountPaid;
     private String paymentDate;
     private String paymentType;
@@ -17,7 +17,7 @@ public class Invoice {
     public Invoice() {
     }
 
-    public Invoice(int invoiceID, double amountPaid, String paymentDate, String paymentType, String paymentCateg) {
+    public Invoice(String invoiceID, double amountPaid, String paymentDate, String paymentType, String paymentCateg) {
         this.invoiceID = invoiceID;
         this.amountPaid = amountPaid;
         this.paymentDate = paymentDate;
@@ -25,11 +25,11 @@ public class Invoice {
         this.paymentCateg = paymentCateg;
     }
 
-    public int getInvoiceID() {
+    public String getInvoiceID() {
         return invoiceID;
     }
 
-    public void setInvoiceID(int invoiceID) {
+    public void setInvoiceID(String invoiceID) {
         this.invoiceID = invoiceID;
     }
 
@@ -68,7 +68,7 @@ public class Invoice {
     @Override
     public String toString() {
         return "Invoice{" +
-                "invoiceID=" + invoiceID +
+                "invoiceID='" + invoiceID + '\'' +
                 ", amountPaid=" + amountPaid +
                 ", paymentDate='" + paymentDate + '\'' +
                 ", paymentType='" + paymentType + '\'' +

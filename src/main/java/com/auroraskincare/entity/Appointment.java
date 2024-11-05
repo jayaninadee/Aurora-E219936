@@ -10,7 +10,7 @@ package com.auroraskincare.entity;
 import java.sql.Date;
 
 public class Appointment {
-    private int apID;
+    private String apID;
     private String apDate;
     private String apTime;
     private String apStatus;
@@ -19,18 +19,20 @@ public class Appointment {
     public Appointment() {
     }
 
-    public Appointment(int apID, String apDate, String apTime, String apStatus) {
+    public Appointment(String apID, String apDate, String apTime, String apStatus) {
         this.apID = apID;
         this.apDate = apDate;
         this.apTime = apTime;
         this.apStatus = apStatus;
     }
+
     //Getters & Setters
-    public int getApID() {
+
+    public String getApID() {
         return apID;
     }
 
-    public void setApID(int apID) {
+    public void setApID(String apID) {
         this.apID = apID;
     }
 
@@ -61,7 +63,7 @@ public class Appointment {
     @Override
     public String toString() {
         return "Appointment{" +
-                "apID=" + apID +
+                "apID='" + apID + '\'' +
                 ", apDate='" + apDate + '\'' +
                 ", apTime='" + apTime + '\'' +
                 ", apStatus='" + apStatus + '\'' +

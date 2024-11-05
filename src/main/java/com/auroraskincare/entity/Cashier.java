@@ -8,7 +8,7 @@
 package com.auroraskincare.entity;
 
 public class Cashier {
-    private int CaID;
+    private String CaID;
     private String CaName;
     private String CaUName;
     private String CaPass;
@@ -18,7 +18,7 @@ public class Cashier {
     public Cashier() {
     }
 
-    public Cashier(int caID, String caName, String caUName, String caPass, String caNIC) {
+      public Cashier(String caID, String caName, String caUName, String caPass, String caNIC) {
         CaID = caID;
         CaName = caName;
         CaUName = caUName;
@@ -27,11 +27,11 @@ public class Cashier {
     }
 //Getters & Setters
 
-    public int getCaID() {
+    public String getCaID() {
         return CaID;
     }
 
-    public void setCaID(int caID) {
+    public void setCaID(String caID) {
         CaID = caID;
     }
 
@@ -70,7 +70,7 @@ public class Cashier {
     @Override
     public String toString() {
         return "Cashier{" +
-                "CaID=" + CaID +
+                "CaID='" + CaID + '\'' +
                 ", CaName='" + CaName + '\'' +
                 ", CaUName='" + CaUName + '\'' +
                 ", CaPass='" + CaPass + '\'' +

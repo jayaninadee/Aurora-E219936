@@ -8,7 +8,7 @@
 package com.auroraskincare.entity;
 
 public class Doctor {
-    private int doctorID;
+    private String doctorID;
     private String dName;
     private String dSpecialization;
     private String dNIC;
@@ -17,7 +17,7 @@ public class Doctor {
     public Doctor() {
     }
 
-    public Doctor(int doctorID, String dName, String dSpecialization, String dNIC, int dConNumber) {
+    public Doctor(String doctorID, String dName, String dSpecialization, String dNIC, int dConNumber) {
         this.doctorID = doctorID;
         this.dName = dName;
         this.dSpecialization = dSpecialization;
@@ -25,11 +25,11 @@ public class Doctor {
         this.dConNumber = dConNumber;
     }
 
-    public int getDoctorID() {
+    public String getDoctorID() {
         return doctorID;
     }
 
-    public void setDoctorID(int doctorID) {
+    public void setDoctorID(String doctorID) {
         this.doctorID = doctorID;
     }
 
@@ -68,7 +68,7 @@ public class Doctor {
     @Override
     public String toString() {
         return "Doctor{" +
-                "doctorID=" + doctorID +
+                "doctorID='" + doctorID + '\'' +
                 ", dName='" + dName + '\'' +
                 ", dSpecialization='" + dSpecialization + '\'' +
                 ", dNIC='" + dNIC + '\'' +

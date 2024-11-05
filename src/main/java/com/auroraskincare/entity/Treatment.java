@@ -8,24 +8,24 @@
 package com.auroraskincare.entity;
 
 public class Treatment {
-    private int trID;
+    private String trID;
     private String trName;
     private double trprice;
 
     public Treatment() {
     }
 
-    public Treatment(int trID, String trName, double trprice) {
+    public Treatment(String trID, String trName, double trprice) {
         this.trID = trID;
         this.trName = trName;
         this.trprice = trprice;
     }
 
-    public int getTrID() {
+    public String getTrID() {
         return trID;
     }
 
-    public void setTrID(int trID) {
+    public void setTrID(String trID) {
         this.trID = trID;
     }
 
@@ -45,4 +45,12 @@ public class Treatment {
         this.trprice = trprice;
     }
 
+    @Override
+    public String toString() {
+        return "Treatment{" +
+                "trID='" + trID + '\'' +
+                ", trName='" + trName + '\'' +
+                ", trprice=" + trprice +
+                '}';
+    }
 }
