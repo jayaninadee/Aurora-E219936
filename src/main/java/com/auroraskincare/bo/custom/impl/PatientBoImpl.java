@@ -7,5 +7,7 @@
 
 package com.auroraskincare.bo.custom.impl;
 
-public class PatientBoImpl {
+import com.auroraskincare.bo.custom.PatientBo;
+
+public class PatientBoImpl implements PatientBo {
 }

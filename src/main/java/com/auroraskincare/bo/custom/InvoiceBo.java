@@ -7,5 +7,7 @@
 
 package com.auroraskincare.bo.custom;
 
-public interface InvoiceBo {
+import com.auroraskincare.bo.SuperBO;
+
+public interface InvoiceBo extends SuperBO {
 }

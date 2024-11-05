@@ -141,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730736107689</updated>
-      <workItem from="1730736108780" duration="26541000" />
+      <workItem from="1730736108780" duration="28056000" />
     </task>
     <task id="LOCAL-00001" summary="FXML Error fixed">
       <option name="closed" value="true" />
@@ -287,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730818980417</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="DAO implemented">
+      <option name="closed" value="true" />
+      <created>1730826362828</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730826362828</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

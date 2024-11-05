@@ -7,5 +7,7 @@
 
 package com.auroraskincare.bo.custom.impl;
 
-public class InvoiceBoImpl {
+import com.auroraskincare.bo.custom.InvoiceBo;
+
+public class InvoiceBoImpl implements InvoiceBo {
 }

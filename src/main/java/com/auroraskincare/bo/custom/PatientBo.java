@@ -7,5 +7,7 @@
 
 package com.auroraskincare.bo.custom;
 
-public interface PatientBo {
+import com.auroraskincare.bo.SuperBO;
+
+public interface PatientBo extends SuperBO {
 }

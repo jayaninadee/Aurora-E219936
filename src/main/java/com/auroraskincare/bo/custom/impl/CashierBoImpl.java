@@ -7,5 +7,7 @@
 
 package com.auroraskincare.bo.custom.impl;
 
-public class CashierBoImpl {
+import com.auroraskincare.bo.custom.CashierBo;
+
+public class CashierBoImpl implements CashierBo {
 }
