@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.auroraskincare.controller.LoginController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-  </padding>
+<!--
+  ~ Copyright (c) 2024
+  ~ ***********************************************
+  ~ Jayani Nadeesha
+  ~ ***********************************************
+  -->
 
-  <Label fx:id="welcomeText" />
-
-  <Button onAction="#onHelloButtonClick" text="Hello!" />
-</VBox>
+<AnchorPane id="AnchorPane" fx:id="paneLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="437.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.auroraskincare.controller.LoginController">
+   <children>
+      <ImageView fitHeight="451.0" fitWidth="712.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assests/login.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="btnLoginnew" layoutX="391.0" layoutY="15.0" prefHeight="416.0" prefWidth="307.0" style="-fx-background-color: white; -fx-border-color: #7AC3CD;">
+         <children>
+            <Label layoutX="134.0" layoutY="151.0" opacity="0.7" text="User Login" textFill="#1207e3">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Hyperlink fx:id="hybrForgotPassword" layoutX="94.0" layoutY="346.0" onAction="#forgotPassword" opacity="0.71" text="forgot password ?" textFill="#110f0f" />
+            <ImageView fitHeight="34.0" fitWidth="28.0" layoutX="66.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/Help_64px.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="30.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image>
+                      <url>@../resources/Circled%20User%20Male_52px.png</url>
+                  </Image>
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="30.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/Password_52px.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="txtPswrd" layoutX="80.0" layoutY="247.0" prefHeight="28.0" prefWidth="207.0" promptText="Password">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="txtUsername" layoutX="80.0" layoutY="185.0" prefHeight="20.0" prefWidth="207.0" promptText="Username">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="close" fitHeight="38.0" fitWidth="34.0" layoutX="272.0" layoutY="3.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image>
+                      <url>@../resources/Close%20Window_48px.png</url>
+                  </Image>
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="298.0" layoutX="68.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assests/AuroraSkinClinic_logomini.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnLogin" layoutX="129.0" layoutY="296.0" mnemonicParsing="false" onAction="#login" text="Login" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

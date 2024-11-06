@@ -26,6 +26,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -74,7 +75,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jayan/Downloads/jar_files (1)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/InteliJ/AuroraSkinCare-E219936/target/classes/com/auroraskincare/assests&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -100,18 +101,21 @@
       <recent name="com.auroraskincare.dao.custom" />
       <recent name="com.auroraskincare.dao.custom.impl" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev\InteliJ\AuroraSkinCare-E219936\target\classes\com\auroraskincare\assests" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\InteliJ\AuroraSkinCare-E219936\src\main\java\com\auroraskincare\view" />
       <recent name="C:\Dev\InteliJ\AuroraSkinCare-E219936\src\main\resources\com\auroraskincare" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.auroraskincare.main.Main" />
       <module name="AuroraSkinCare-E219936" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.auroraskincare.main.Main" />
+          <option name="PATTERN" value="com.auroraskincare.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
