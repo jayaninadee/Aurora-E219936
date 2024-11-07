@@ -49,26 +49,26 @@ public class LoginController implements Initializable {
 
     @FXML
     private void login(ActionEvent event) throws IOException {
-//         if(txtUsername.getText().equals("") || txtPswrd.getText().equals("")){
-//           lblErrorMsg.setText("Please Fill The Fields");
-//
-//       }else if(txtUsername.getText().equalsIgnoreCase("Admin") && !txtPswrd.getText().equals("1234")){
-//           lblErrorMsg.setText("Password is Wrong");
-//
-//       }else if(!txtUsername.getText().equalsIgnoreCase("Admin") && txtPswrd.getText().equals("1234")){
-//           lblErrorMsg.setText("Username is Wrong");
-//
-//       }else if(!txtUsername.getText().equalsIgnoreCase("Admin") && !txtPswrd.getText().equals("1234")){
-//           lblErrorMsg.setText("Username or Password is Wrong");
-//
-//       }else if(txtUsername.getText().equalsIgnoreCase("Admin") && txtPswrd.getText().equals("1234")){
-        Parent root= FXMLLoader.load(this.getClass().getResource("/lk/saninro/hr/view/Selection.fxml"));
+         if(txtUsername.getText().equals("") || txtPswrd.getText().equals("")){
+           lblErrorMsg.setText("Please Fill The Fields");
+
+       }else if(txtUsername.getText().equalsIgnoreCase("Admin") && !txtPswrd.getText().equals("1234")){
+           lblErrorMsg.setText("Password is Wrong");
+
+       }else if(!txtUsername.getText().equalsIgnoreCase("Admin") && txtPswrd.getText().equals("1234")){
+           lblErrorMsg.setText("Username is Wrong");
+
+       }else if(!txtUsername.getText().equalsIgnoreCase("Admin") && !txtPswrd.getText().equals("1234")){
+           lblErrorMsg.setText("Username or Password is Wrong");
+
+       }else if(txtUsername.getText().equalsIgnoreCase("Admin") && txtPswrd.getText().equals("1234")){
+        Parent root= FXMLLoader.load(this.getClass().getResource("/com/auroraskincare/view/dash.fxml"));
         Scene temp=new Scene(root);
         Stage stage=(Stage) this.paneLogin.getScene().getWindow();
         stage.setScene(temp);
         stage.centerOnScreen();
         stage.setResizable(false);
-        // }
+         }
     }
 
     @FXML

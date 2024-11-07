@@ -12,6 +12,7 @@ module com.auroraskincare {
     requires com.almasb.fxgl.all;
     requires java.sql;
 
+    exports com.auroraskincare.view;
     opens com.auroraskincare.view to javafx.fxml;
     exports com.auroraskincare.main;
     opens com.auroraskincare.main to javafx.fxml;

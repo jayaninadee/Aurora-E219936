@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.AuroraSkinCare</groupId>
-  <artifactId>AuroraSkinCare-E219936</artifactId>
+  <artifactId>AuroraSkinCareLast</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>AuroraSkinCare-E219936</name>
 
@@ -14,30 +14,31 @@
 <junit.version>5.10.2</junit.version>  </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
-      <version>17.0.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-fxml</artifactId>
-      <version>17.0.6</version>
-    </dependency>
-<dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-web</artifactId>
-      <version>17.0.6</version>
-    </dependency>
-      <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-swing</artifactId>
-        <version>17.0.6</version>
-      </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-controls</artifactId>-->
+<!--      <version>17.0.6</version>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-fxml</artifactId>-->
+<!--      <version>17.0.6</version>-->
+<!--    </dependency>-->
+<!--<dependency>-->
+<!--      <groupId>org.openjfx</groupId>-->
+<!--      <artifactId>javafx-web</artifactId>-->
+<!--      <version>17.0.6</version>-->
+<!--    </dependency>-->
+<!--      <dependency>-->
+<!--        <groupId>org.openjfx</groupId>-->
+<!--        <artifactId>javafx-swing</artifactId>-->
+<!--        <version>17.0.6</version>-->
+<!--      </dependency>-->
+
 <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-media</artifactId>
-      <version>17.0.6</version>
+      <version>21.0.2</version>
     </dependency><dependency>
       <groupId>org.controlsfx</groupId>
       <artifactId>controlsfx</artifactId>
@@ -131,7 +132,8 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.auroraskincare.auroraskincaree219936/com.auroraskincare.main.Main</mainClass>
+<!--              <mainClass>com.auroraskincare.auroraskincaree219936/com.auroraskincare.main.Main</mainClass>-->
+              <mainClass>com.auroraskincare/com.auroraskincare.main.Main</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
